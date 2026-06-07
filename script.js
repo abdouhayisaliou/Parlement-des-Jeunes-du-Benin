@@ -1,0 +1,2 @@
+document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());
+const menu=document.querySelector('.mobile');const nav=document.querySelector('.menu');if(menu){menu.onclick=()=>{nav.style.display=nav.style.display==='flex'?'none':'flex';nav.style.position='absolute';nav.style.top='78px';nav.style.left='0';nav.style.right='0';nav.style.padding='22px';nav.style.background='#fff';nav.style.flexDirection='column';}}
